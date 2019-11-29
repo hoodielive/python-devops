@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Vue</title>
+  </head>
+  <body>
+    <div id="shopping-list">
+      <h1> {{ header }} </h1> 
+    </div>
+
+    <script charset="utf-8" src="https://unpkg.com/vue"> </script>
+    <script charset="utf-8">
+      app = new Vue({
+        el: '#shopping-list',
+        data: {
+          header: 'Vue is ready to party!' 
+        }
+      })
+    </script>
+  </body>
+</html>
